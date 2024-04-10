@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fondo{
+    background-color: grey;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(1, 182, 236, 0.322),rgba(38, 255, 0, 0.226)),
+        url("img/pngtree-tech-savvy-programmer-immersed-in-virtual-reality-with-a-3d-computer-image_13529220.png");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.texto-hero{
+    color:white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto1{
+    font-size: 70px;
+    text-shadow: 0 0 15px blue;
+}
+
+.texto2{
+    font-size: 50px ;
+    text-shadow: 15px blue;
+}
+
+.info{
+    background-color: gray;
+    color: rgba(247, 189, 0, 0.575);
+    text-shadow: 15px white;
+
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.titulo-info{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedor-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap ;
+}
+.card{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 5px 0 black;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px 0 black;
+    transform:  scale(1.1);
+    transition: transform 0.5;
+    cursor: pointer;
+}
+
+.card i{
+    color: blueviolet ;
+    font-size: 50px;
+    margin: 40px 0 20px 0;
+}
+
+.card h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align:  center;
+}
+
+.boton{
+    background-color: blueviolet;
+    border: 1px solid white;
+    color: gold;
+    padding: 20px 10px;
+    display:  inline-block;
+    width: 50%;
+    margin-bottom: 25px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-color: white;
+    color: gold;
+    border: 3px solid blueviolet;
+}
+
+.contenedor-imagen{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.contenedor-imagen img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 35px;
+    display: block;
+    box-shadow: 0 0 10px 0 black;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.galeria{
+    background-color: gray;
+}
+
+ul{
+    list-style-type: none;
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center;
+}
+li a:hover{
+    background-color: blueviolet;
+    color: black;
+    transform: translateX(25%);
+    transition: 0.5s;
+}
+
+.margen-icon{
+    margin-top: 15px;
+}
+
+.contacto{
+    background-color: grey;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: blueviolet;
+    outline: none;
+    border: 1px solid blueviolet;
+}
+
+.input::placeholder{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+.input-ancho{
+    width: 49%;
+    margin-bottom: 30px;
+    display: inline-block;
+    height: 50px;
+}
+
+.textarea-ancho{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+footer{
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: blueviolet;
+    color: goldenrod;
+    text-align: center;
+
+}
+
